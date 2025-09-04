@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Image Loader, Resizer, Rotator, Filter, and Drawing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+	<style type="text/css">
+	.auto-style1 {
+		font-size: x-small;
+	}
+	</style>
+</head>
+<body>
+    <h1><span lang="en-au">EZ-Filter</span></h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <div class="controls">
+        <label for="scaleRange">Scale: </label>
+        <input type="range" id="scaleRange" min="10" max="500" value="100">
+        <span id="scaleValue">100%</span>
+    </div>
+    <div class="controls">
+        <label for="rotateRange">Rotate: </label>
+        <input type="range" id="rotateRange" min="0" max="360" value="0">
+        <span id="rotateValue">0°</span>
+    </div>
+    <div class="controls">
+        <label for="brightnessRange">Brightness: </label>
+        <input type="range" id="brightnessRange" min="0" max="200" value="100">
+        <span id="brightnessValue">100%</span>
+    </div>
+    <div class="controls">
+        <label for="contrastRange">Contrast: </label>
+        <input type="range" id="contrastRange" min="0" max="200" value="100">
+        <span id="contrastValue">100%</span>
+    </div>
+    <div class="controls">
+        <label for="grayscaleRange">Grayscale: </label>
+        <input type="range" id="grayscaleRange" min="0" max="100" value="0">
+        <span id="grayscaleValue">0%</span>
+    </div>
+    <div class="controls">
+        <label for="hueRotateRange">Hue-Rotate: </label>
+        <input type="range" id="hueRotateRange" min="0" max="360" value="0">
+        <span id="hueRotateValue">0°</span>
+    </div>
+    <div class="controls">
+        <label for="invertRange">Invert: </label>
+        <input type="range" id="invertRange" min="0" max="100" value="0">
+        <span id="invertValue">0%</span>
+    </div>
+    <div class="controls">
+        <label for="opacityRange">Opacity: </label>
+        <input type="range" id="opacityRange" min="0" max="100" value="100">
+        <span id="opacityValue">100%</span>
+    </div>
+    <div class="controls">
+        <label for="saturateRange">Saturate: </label>
+        <input type="range" id="saturateRange" min="0" max="200" value="100">
+        <span id="saturateValue">100%</span>
+    </div>
+    <div class="controls">
+        <label for="sepiaRange">Sepia: </label>
+        <input type="range" id="sepiaRange" min="0" max="100" value="0">
+        <span id="sepiaValue">0%</span>
+    </div>
+
+  <button id="saveButton">Save Canvas</button>
+    <script src="script.js"></script>
+	<p><span class="auto-style1" lang="en-au">By CD Xbow. Download -
+	<a href="https://github.com/CD-Xbow/ez-filter">CD-Xbow/ez-filter: Small app 
+	to apply CSS filers, rotate and scale images.</a></span></p>
+</body>
+</html>
