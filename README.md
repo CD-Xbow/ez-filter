@@ -1,6 +1,15 @@
 # EZ-filter
-Small app to apply easily CSS filers, rotate and scale images. 
+A small, no frills app to apply easily CSS filters, rotate and scale images. 
 
-Save as PNG or JPG
+Saves as PNG or JPG
 
-Eventually I want to add this to an AI generation and modification app
+Easy to use, works on mobile and desktops
+
+### Test it
+Try it out here - https://ez-filter.puter.site/
+
+### Installation
+Copy the files and off you go. No node, no react just plain HTML/CSS/JS
+
+
+Enjoy!
